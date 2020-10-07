@@ -1,12 +1,26 @@
 ﻿<Properties StartupConfiguration="{3A5E2C65-C381-BBD9-0887-FE3669D1F03E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Shoot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/enemyHealth.cs">
     <Files>
-      <File FileName="Assets/Script/Shoot.cs" Line="10" Column="7" />
+      <File FileName="Assets/Script/Shoot.cs" Line="45" Column="37" />
+      <File FileName="Assets/Script/enemyHealth.cs" Line="27" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameShooterVR" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="enemyHealth.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba422149-0317-4d87-84cb-9dcda841b438" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

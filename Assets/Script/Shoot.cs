@@ -35,7 +35,17 @@ public class Shoot : MonoBehaviour
         // this will check if the raycast hit anything
         if(Physics.Raycast(camera.transform.position,camera.transform.forward,out hit, range)) 
         {
+            //check if raycast works, send message to the console
             print("You hit" + hit.transform.name);
-         }
+
+            //reference our enemy health script
+            enemyHealth enemyHealth = hit.transform.GetComponent<enemyHealth>();
+
+            //check if shot enemny
+            if(enemyHealth != null) 
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+        }
     }
 }
