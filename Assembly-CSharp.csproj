@@ -191,6 +191,7 @@
     <Compile Include="Assets\Script\enemyHealth.cs" />
     <Compile Include="Assets\Script\playerHealth.cs" />
     <Compile Include="Assets\Script\Shoot.cs" />
+    <Compile Include="Assets\Script\waveSpawner.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
